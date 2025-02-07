@@ -41,7 +41,7 @@ os.system("clear")
 
 print(banner)
 
-print(f"Saving data = '{save_input}'\n")
+print(f"Saving status = '{save_input}'\n")
 
 def packet_callback(packet):
     """Processes captured packets and logs details if enabled."""
