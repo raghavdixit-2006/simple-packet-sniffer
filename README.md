@@ -21,8 +21,8 @@ pip install scapy
 ```
 ### **2️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/packet-sniffer.git
-cd packet-sniffer
+git clone https://github.com/raghavdixit-2006/packet-sniffer.git
+cd simple-packet-sniffer
 ```
 
 ---
@@ -31,12 +31,12 @@ cd packet-sniffer
 Run the script with **administrator/root privileges** (required for packet sniffing).
 ### 💻 Windows (Run as Admin)
 ```powershell
-python packet_sniffer.py
+python packet-sniffer.py
 ```
 
 ### 🐧 Linux/macOS
 ```bash
-sudo python3 packet_sniffer.py
+sudo python3 packet-sniffer.py
 ```
 
 ---
