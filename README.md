@@ -72,7 +72,7 @@ Please enter the file name without any spaces: packet
 
                                                                                 created by- Raghav Dixit  
 
-Saving data = 'y'
+Saving status = 'y'
 
 Date & Time         Source        Destination       Protocol   Info
 --------------------------------------------------------------------------------
@@ -80,12 +80,16 @@ Date & Time         Source        Destination       Protocol   Info
 2025-02-06 14:30:16 192.168.1.5   8.8.8.8          UDP        Ports: 53 → 54789
 2025-02-06 14:30:17 192.168.1.20  192.168.1.255    ICMP       Type: 8, Code: 0
 ```
-### 🔹 Log File Output (packets.log if logging enabled)
+### 🔹 Log File Output (if logging enabled)
+```bash
+cat packet.log
+```
 ```nigex
 Date & Time         Source        Destination       Protocol   Info
 --------------------------------------------------------------------------------
 2025-02-06 14:30:15 192.168.1.10  192.168.1.1      TCP        Ports: 443 → 51234, Flags: S
 2025-02-06 14:30:16 192.168.1.5   8.8.8.8          UDP        Ports: 53 → 54789
+2025-02-06 14:30:17 192.168.1.20  192.168.1.255    ICMP       Type: 8, Code: 0
 ```
 
 ---
