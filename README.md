@@ -92,7 +92,7 @@ Date & Time         Source        Destination       Protocol   Info
 
 ## ⚠️ Requirements & Notes
 - Requires Python 3.x.
-- Must be run as root/admin for packet sniffing.
+- Must be run as **root/admin** for packet sniffing.
 - Works on Windows, macOS, and Linux.
 
 ## 📄 License
@@ -104,4 +104,3 @@ Date & Time         Source        Destination       Protocol   Info
 ## ⭐️ Show Your Support
  - If you like this project, please  **⭐️ Star the repo** on GitHub!
 
----
